@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://fouix.github.io/JAMSite/"
 languageCode = "en-us"
 title = "JAMSite"
 theme = "tale"
