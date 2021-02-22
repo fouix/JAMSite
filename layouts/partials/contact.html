@@ -39,14 +39,14 @@
         formData[message.name]= message.value
 
         //HTTP request to the server
-        fetch('http://localhost:2222/', {
-            method:'post',
-            mode : "no-cors",
-            body: JSON.stringify(formData)
-        }).then( () => {
+        //fetch('http://localhost:2222/', {
+        //    method:'post',
+        //    mode : "no-cors",
+        //    body: JSON.stringify(formData)
+        //}).then( () => {
             // Replace form with "sent" message
-            contactForm.innerHTML = '<strong>Message sent!</strong>'
-        } )
+        //    contactForm.innerHTML = '<strong>Message sent!</strong>'
+        //} )
 
         return false;
     }
