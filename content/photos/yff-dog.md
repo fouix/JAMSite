@@ -1,7 +1,7 @@
 ---
 title: "Yff Dog"
 date: 2020-07-10T14:03:01+01:00
-draft: true
+draft: false
 photoauthor: "Ray Viljoen"
 tags: ['photo', 'dog', 'tongue']
 ---

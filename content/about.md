@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2020-08-19T15:14:42+01:00
-draft: true
+draft: false
 author: Ray Viljoen
 type : topinfo
 ---

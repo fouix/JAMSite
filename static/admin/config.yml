@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+
+local_backend: true
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  -name: "page"
+   label: "Page"
+   folder: "content/"
+   create: true
+   slug: "{{slug}}"
+   fields:
+    - {label: "Title", name: "title", widget: "string"}
